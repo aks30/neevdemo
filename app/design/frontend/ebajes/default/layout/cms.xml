@@ -131,9 +131,9 @@ Default layout, loads most of the pages
 			</block>
 		</reference>
 		<reference name="left">
-			<block type="cms/block" name="ebajes_quick_selections_sidebar">
+			<!-- <block type="cms/block" name="ebajes_quick_selections_sidebar">
                 <action method="setBlockId"><block_id>ebajes_quick_selections_sidebar</block_id></action>
-            </block>
+            </block> -->
 			<block type="cms/block" name="ebajes_home_left_ads_1">
                 <action method="setBlockId"><block_id>ebajes_home_left_ads_1</block_id></action>
             </block>

@@ -52,13 +52,13 @@
 
 <script type="text/javascript">
  /*************** Cart *********************/
-jQuery(function($) { 
-$('#top_cart_sidebar').hide();
- $('.top-link-cart')
+jQuery(function() { 
+jQuery('#top_cart_sidebar').hide();
+ jQuery('.top-link-cart')
  .bind('mouseover', showMenu)
  .bind('click', showMenu)
  .bind('mouseout', hideMenu);
- $('#top_cart_sidebar')
+ jQuery('#top_cart_sidebar')
  .bind('mouseover', showMenu)
  .bind('click', showMenu)
  .bind('mouseout', hideMenu);
@@ -69,20 +69,20 @@ $('#top_cart_sidebar').hide();
 		clearTimeout(timeout);
 		timeout = setTimeout(function() {
 		timeout = null;
-		$('#top_cart_sidebar').slideUp();
-		$('.top-link-cart').removeClass('over');
+		jQuery('#top_cart_sidebar').slideUp();
+		jQuery('.top-link-cart').removeClass('over');
 		}, 200);
 	}
 
 	function showMenu() {		
-		$('#div_search').css('display','none');	
-		$('#top-links').css('display','none');
+		jQuery('#div_search').css('display','none');	
+		jQuery('#top-links').css('display','none');
 		if (timeout)
 		clearTimeout(timeout);
 		timeout = setTimeout(function() {
 		timeout = null;
-		$('#top_cart_sidebar').slideDown();
-		$('.top-link-cart').addClass('over');
+		jQuery('#top_cart_sidebar').slideDown();
+		jQuery('.top-link-cart').addClass('over');
 		}, 200);
 	} 
 }); 

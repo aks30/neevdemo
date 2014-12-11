@@ -28,18 +28,15 @@
  */
 ?>
 <div class="header-container">
-	<div class="quick-access" style = "height:50px;">
+	<div class="quick-access">
 		<div class = "inner-quick-access">
-
-			<?php echo $this->getChildHtml('store_language') ?>
-			<div style="float:right;">
+			<div class = "header-container-left">
             <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getAdditionalHtml() ?></p>
 			<a href="<?php echo Mage::helper('customer')->getLoginUrl() ?>"><?php echo $this->__('Login');?></a>
 			<span><?php echo $this->__('or');?></span>
 			<a href="<?php echo Mage::helper('customer')->getRegisterUrl() ?>"><?php echo $this->__('Signup');?></a>
-
+			</div>
             <?php echo $this->getChildHtml('topLinks') ?>
-			</div>			
 			<?php 
 				$_cartQty = Mage::getSingleton('checkout/cart')->getSummaryQty()?Mage::getSingleton('checkout/cart')->getSummaryQty():'0'; ?>
 				<?php 
@@ -69,6 +66,7 @@
         <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
         <?php endif?>
         <?php echo $this->getChildHtml('ebajes_header_block_info') ?>
+		<?php //echo $this->getChildHtml('store_language') ?>
         <?php echo $this->getChildHtml('topContainer'); ?>
     </div>
 	<div class="header-bottom">

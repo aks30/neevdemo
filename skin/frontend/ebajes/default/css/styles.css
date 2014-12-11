@@ -881,7 +881,9 @@ font-size: 12px; font-family:'Roboto', Arial, sans-serif; margin-bottom: 3px; pa
 /* 3rd+ Level */
 #nav ul ul,
 #nav ul div { top:-6px; }
-
+   
+#nav li.brd2 ul li a{padding-left: 8px;}
+html body.cms-index-index div.wrapper div.page div.header-container div.header-bottom div.nav-container ul#nav li.brd2 ul {top:37px;}
 #nav ul li a{color:#000000;}
 #nav ul li a:hover { color:#2465c6; }
 #nav ul span,
@@ -898,6 +900,13 @@ font-size: 12px; font-family:'Roboto', Arial, sans-serif; margin-bottom: 3px; pa
 .brd3{border-top:3px solid #ef3c92;}
 .brd4{border-top:3px solid #9dbd6a;}
 .brd5{border-top:3px solid #48ae7a; width:508px}
+
+#nav-container ul li:hover ul{
+    display:block;
+    background:red;
+	height:auto;
+	width:8em; 
+}
 
 /********** Navigation > */
 /* ======================================================================================= */

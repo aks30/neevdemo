@@ -33,9 +33,31 @@
 ?>
 <?php $_menu = $this->getHtml('level-top') ?>
 <?php if($_menu): ?>
+<!-- <div class="nav-container">
+    <ul id="nav">
+        <?php //echo $_menu ?>
+    </ul>
+</div> -->
+<?php endif ?>
+<?php $_menu = $this->getHtml('level-top') ?>
+<?php if($_menu): ?>
 <div class="nav-container">
     <ul id="nav">
-        <?php echo $_menu ?>
-    </ul>
+		 	<li class="home_first">
+		 	 	<a class="home" href="http://mage-demos.org/MAG211/MAG090198/index.php/">Home</a>
+		  	</li>
+		  	<li>
+		  		<a href="http://mage-demos.org/MAG211/MAG090198/index.php/about-magento-demo-store" class="">Service</a>
+		  	</li>
+			<li class="last_link">
+				<a href="http://mage-demos.org/MAG211/MAG090198/index.php/contacts">Locate</a>
+			</li>
+			<li class="last_link">
+				<a href="http://mage-demos.org/MAG211/MAG090198/index.php/manufacturer">B2B</a>
+			</li>
+			<li class="last_link">
+				<a href="http://mage-demos.org/MAG211/MAG090198/index.php/sales/guest/form/">Buy AMC</a>
+			</li> 
+	</ul>
 </div>
 <?php endif ?>

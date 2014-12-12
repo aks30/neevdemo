@@ -123,7 +123,7 @@ class Mtoo_Navigation_Block_Navigation extends Mage_Core_Block_Template
         	 	 		 foreach ($childChildrens as $Children) {
         	 	 		 	if ($Children->getIsActive())
         	 	 		 	{
-        	 	 				$htmlChildren.='<li><a href="'.$this->getCategoryUrl($Children).'" class="red">'.$this->htmlEscape($Children->getName()).'</a></li>';
+        	 	 				$htmlChildren.='<li><a href="'.$this->getCategoryUrl($Children).'" class="blue">'.$this->htmlEscape($Children->getName()).'</a></li>';
         	 	 		 	}
         	 	 		 }
         	 	 		$htmlChildren.='</ul>';        	 	 	

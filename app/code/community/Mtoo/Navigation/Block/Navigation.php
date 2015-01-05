@@ -101,9 +101,9 @@ class Mtoo_Navigation_Block_Navigation extends Mage_Core_Block_Template
         $children = $this->getChildrens($category);
         $html.='<div class="litem">';
         if ($hasChildren)
-        	$html.='<span><a href="'.$this->getCategoryUrl($category).'">'.$this->htmlEscape($category->getName()).'</a><em class="dow_ico"></em></span>';
+        	$html.='<span><a test2 href="'.$this->getCategoryUrl($category).'">'.$this->htmlEscape($category->getName()).'</a><em class="dow_ico"></em></span>';
         else
-        	$html.='<span><a href="'.$this->getCategoryUrl($category).'">'.$this->htmlEscape($category->getName()).'</a></span>';
+        	$html.='<span><a test3 href="'.$this->getCategoryUrl($category).'">'.$this->htmlEscape($category->getName()).'</a></span>';
         $htmlChildren='';
         if ($hasChildren){
         	$htmlChildren.='<div style="width: '.$this->getWidth($category).'px;" class="subitem">';
@@ -123,7 +123,7 @@ class Mtoo_Navigation_Block_Navigation extends Mage_Core_Block_Template
         	 	 		 foreach ($childChildrens as $Children) {
         	 	 		 	if ($Children->getIsActive())
         	 	 		 	{
-        	 	 				$htmlChildren.='<li><a href="'.$this->getCategoryUrl($Children).'" class="red">'.$this->htmlEscape($Children->getName()).'</a></li>';
+        	 	 				$htmlChildren.='<li><a test1 href="'.$this->getCategoryUrl($Children).'" class="blue">'.$this->htmlEscape($Children->getName()).'</a></li>';
         	 	 		 	}
         	 	 		 }
         	 	 		$htmlChildren.='</ul>';        	 	 	

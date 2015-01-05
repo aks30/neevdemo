@@ -1,0 +1,26 @@
+<?php
+/**
+ * This file is part of The Official Amazon Payments Magento Extension
+ * (c) Neev Technologies
+ * All rights reserved
+ *
+ * Reuse or modification of this source code is not allowed
+ * without written permission from Neevtech
+ *
+ * @category   Neev
+ * @package    Neev_AmazonPaymentIndia
+ * @copyright  Copyright (c) 2014 (http://www.neevtech.com)
+ * @author     Milind Desai / Neev Technologies
+ */
+?>
+<div id="ProgressAmazonWalletWidget"></div>
+<script type="text/javascript">//<![CDATA[
+    new CBA.Widgets.WalletWidget({
+        merchantId: '<?php echo $this->getMerchantId(); ?>',
+        displayMode: 'Read',
+<?php if ($this->getPurchaseContractId()): ?>
+        purchaseContractId: '<?php echo $this->getPurchaseContractId(); ?>',
+<?php endif; ?>
+        design: {size: {width: '<?php echo $this->getWidgetWidth(); ?>', height: '<?php echo $this->getWidgetHeight(); ?>'}}
+    }).render('ProgressAmazonWalletWidget') ;
+//]]></script>

@@ -20,7 +20,7 @@
 <config>
     <modules>
         <Mtoo_Navigation>
-            <active>true</active>
+            <active>false</active>
             <codePool>community</codePool>
         </Mtoo_Navigation>
     </modules>

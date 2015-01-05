@@ -1,0 +1,29 @@
+<?php
+/**
+ * This file is part of The Official Amazon Payments Magento Extension
+ * (c) Neevtech
+ * All rights reserved
+ *
+ * Reuse or modification of this source code is not allowed
+ * without written permission from neev  
+ *
+ * @category   Neev
+ * @package    Neev_AmazonPaymentIndia
+ * @copyright  Copyright (c) 2011 - 2014 neev   (http://www.neevtech.com)
+ * @author     Milind Desai / Neevtech
+ */
+?>
+<div class="neev-info">
+    <a class="neev-logo" href="http://www.neevtech.com" target="_blank">
+        <img src="<?php echo $this->getSkinUrl('neev/images/checkout-by-amazon-neev-logo.png'); ?>" alt="neev" />
+    </a>
+    <h3><?php echo $this->__('Amazon Payment India'); ?><small> (v. <?php echo $this->getExtensionVersion(); ?>)</small></h3>
+    <p style="clear:both;"><?php echo $this->helper('amazonpaymentindia')->__('This extension integrates easily your Magento shop with Amazon Payment India payment service.'); ?></p>
+    <p>--------------------------------------------------------<br />
+        <?php echo $this->helper('amazonpaymentindia')->__(
+            'Visit <a href="%s" target="_blank">%s</a> to get more information.',
+            $this->helper('amazonpaymentindia')->__('http://www.neev.net/services/magento.html'),
+            $this->helper('amazonpaymentindia')->__('http://www.neev.net/services/magento.html'));
+        ?>
+    </p>
+</div>

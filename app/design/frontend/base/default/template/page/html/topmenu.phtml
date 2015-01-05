@@ -33,38 +33,9 @@
 ?>
 <?php $_menu = $this->getHtml('level-top') ?>
 <?php if($_menu): ?>
-<!-- <div class="nav-container">
-    <ul id="nav">
-        <?php //echo $_menu ?>
-    </ul>
-</div> -->
-<?php endif ?>
-<?php $_menu = $this->getHtml('level-top') ?>
-<?php if($_menu): ?>
 <div class="nav-container">
     <ul id="nav">
-		 	<li class="home_first brd1">
-		 	 	<a class="home" href="http://jam.neevtech.com/eurekaforbesdemo">Home</a>
-		  	</li>
-		  	<!--<li class="brd2">
-		  		<a href="#" class="">Service</a>
-		  	</li>-->
-		  	<li class="brd2">
-            	<a href="#">Service</a>
-                <ul>
-                	<li>
-                		<a href="#">&raquo;&nbsp; Buy AMC</a>
-                	</li>
-                </ul>
-            </li>
-			<li class="last_link brd3">
-				<a href="#">Locate</a>
-			</li>
-			<li class="last_link brd4">
-				<a href="#">B2B</a>
-			</li>
-			<li class="last_link brd5">
-			</li>
-	</ul>
+        <?php echo $_menu ?>
+    </ul>
 </div>
 <?php endif ?>

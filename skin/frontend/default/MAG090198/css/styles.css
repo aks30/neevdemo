@@ -693,7 +693,7 @@ tr.summary-details-excluded { font-style:italic; }
 .header h1.logo { margin:0; }
 .header .quick-access { 
 	float: right;
-    margin: 52px 25px 0 0;
+    margin: 65px 25px 0 0;
     padding: 0;
 	position:relative;}
 .header .welcome-msg {  background: url("../images/bkg_pipe1.gif") no-repeat scroll 100% 60% transparent;

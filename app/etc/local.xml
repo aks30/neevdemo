@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Wed, 10 Dec 2014 09:06:09 +0000]]></date>
+            <date><![CDATA[Mon, 05 Jan 2015 11:25:32 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[17749d28769b2cf5fa209b7d8a0f6cd6]]></key>
+            <key><![CDATA[2ec20eef119153705bdb2a9a73621497]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -42,8 +42,8 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[root]]></password>
-                    <dbname><![CDATA[eurekaforbes]]></dbname>
+                    <password><![CDATA[Neev#980]]></password>
+                    <dbname><![CDATA[eurekaforbes_new]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>

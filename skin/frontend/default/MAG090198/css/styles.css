@@ -693,8 +693,8 @@ tr.summary-details-excluded { font-style:italic; }
 .header h1.logo { margin:0; }
 .header .quick-access { 
 	float: right;
-    margin: 7px 25px 0 0;
-    padding-top : 10px;
+    margin: 30px 25px 0 0;
+    padding: 0;
 	position:relative;}
 .header .welcome-msg {  background: url("../images/bkg_pipe1.gif") no-repeat scroll 100% 60% transparent;
     float: right;
@@ -707,7 +707,7 @@ tr.summary-details-excluded { font-style:italic; }
     position: absolute;
     width: 341px;
     z-index: 15;
-	top:88px; right:0;}
+	top:65px; right:0;}
 .header .form-search label { float:left; width:24px; height:21px; text-align:left; text-indent:-999em; overflow:hidden; display: none;}
 .header .form-search input.input-text { border:1px solid #acacac;
     box-shadow: 1px 1px 5px #acacac inset;
